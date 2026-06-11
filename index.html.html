@@ -103,19 +103,61 @@
                 최신 기술 트렌드로 귀사의 비즈니스 혁신을 지원합니다.
             </p>
             
-            <div class="flex flex-col sm:flex-row justify-center gap-6">
-                <a href="https://docs.google.com/forms/d/e/1FAIpQLScqlrZ8guOh3sWa4Cz4pL4M89IEk6lXHZR7eC-AWHOX-Cvekg/viewform?usp=header" target="_blank" class="pulse-button bg-white text-[#0054A6] px-10 py-4 rounded-xl font-black text-lg hover:bg-blue-50 transition-all flex items-center justify-center gap-2 group">
+            <div class="flex flex-col sm:flex-row justify-center gap-4 sm:gap-6">
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLScqlrZ8guOh3sWa4Cz4pL4M89IEk6lXHZR7eC-AWHOX-Cvekg/viewform?usp=header" target="_blank" class="pulse-button bg-white text-[#0054A6] px-8 md:px-10 py-4 rounded-xl font-black text-base md:text-lg hover:bg-blue-55 transition-all flex items-center justify-center gap-2 group shadow-lg">
                     전문가 상담 신청하기
                     <svg class="w-5 h-5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
                 </a>
-                <a href="#blog-section" class="bg-blue-600/30 border border-white/30 text-white px-10 py-4 rounded-xl font-bold text-lg hover:bg-white/10 backdrop-blur-sm transition-all flex items-center justify-center">
-                    블로그 소식 보기
+                <!-- [수정] 소개서 다운로드 버튼 추가 (히어로) -->
+                <a href="노드데이타-용역 엔지니어링 솔루션_260609.pdf" download="노드데이타-용역 엔지니어링 솔루션_260609.pdf" class="bg-blue-600/30 border border-white/30 text-white px-8 md:px-10 py-4 rounded-xl font-bold text-base md:text-lg hover:bg-white/10 backdrop-blur-sm transition-all flex items-center justify-center gap-2 shadow-lg">
+                    <svg class="w-5 h-5 text-blue-100" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path></svg>
+                    소개서 다운로드 (PDF)
                 </a>
             </div>
         </div>
     </section>
 
-    <main id="blog-section" class="max-w-6xl mx-auto px-6 py-24 relative">
+    <!-- 보상판매 프로모션 섹션 -->
+    <section class="max-w-5xl mx-auto px-6 pt-16 relative z-20">
+        <div class="bg-gradient-to-br from-red-50 to-white border border-red-100 rounded-3xl p-6 md:p-8 shadow-xl shadow-red-900/5 relative overflow-hidden">
+            
+            <!-- 배경 데코레이션 -->
+            <div class="absolute -top-40 -right-40 w-80 h-80 bg-red-100 rounded-full mix-blend-multiply filter blur-2xl opacity-40 pointer-events-none"></div>
+            
+            <!-- 프로모션 텍스트 영역 -->
+            <div class="relative z-10 w-full max-w-2xl mx-auto flex flex-col items-center text-center">
+                <div class="flex items-center gap-2 mb-3 justify-center">
+                    <span class="inline-flex items-center justify-center bg-red-600 text-white text-[10px] font-bold px-2 py-1 rounded shadow-sm tracking-widest animate-pulse">
+                        LIMITED OFFER
+                    </span>
+                    <span class="text-red-600 font-bold text-xs">~ 6월 30일 마감</span>
+                </div>
+                
+                <h2 class="text-2xl md:text-3xl font-black text-slate-900 mb-2 tracking-tight">
+                    SOLIDWORKS <span class="text-red-600">특별 보상판매</span>
+                </h2>
+                
+                <p class="text-slate-600 text-sm mb-6 leading-relaxed">
+                    보유 중인 SOLIDWORKS 유지보수를 최저가로 연장하고 최신 버전으로 업그레이드하세요!
+                </p>
+
+                <div class="flex flex-col sm:flex-row gap-3 w-full sm:w-auto">
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLScqlrZ8guOh3sWa4Cz4pL4M89IEk6lXHZR7eC-AWHOX-Cvekg/viewform?usp=header" target="_blank" class="inline-flex items-center justify-center bg-slate-900 text-white px-8 py-3 rounded-xl font-bold shadow-md hover:bg-red-600 hover:shadow-red-200 transition-all group text-sm md:text-base">
+                        보상판매 단가 문의하기
+                        <svg class="w-5 h-5 ml-1.5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg>
+                    </a>
+                    <!-- [수정] 소개서 다운로드 버튼 추가 (보상판매) -->
+                    <a href="노드데이타-용역 엔지니어링 솔루션_260609.pdf" download="노드데이타-용역 엔지니어링 솔루션_260609.pdf" class="inline-flex items-center justify-center bg-white border-2 border-red-200 text-red-600 px-8 py-3 rounded-xl font-bold shadow-sm hover:bg-red-50 hover:border-red-300 transition-all text-sm md:text-base gap-1.5">
+                        <svg class="w-4.5 h-4.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path></svg>
+                        소개서 다운로드 (PDF)
+                    </a>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <main id="blog-section" class="max-w-6xl mx-auto px-6 py-20 relative">
         <div class="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-6">
             <div>
                 <h2 class="text-sm font-bold text-[#0054A6] tracking-[0.4em] uppercase mb-3">NodeData Insight</h2>
@@ -130,16 +172,20 @@
             <!-- 블로그 포스트 1 -->
             <article class="group bg-white rounded-3xl overflow-hidden shadow-xl shadow-slate-200/50 border border-slate-100 hover-lift flex flex-col">
                 <div class="h-64 relative overflow-hidden bg-slate-900">
-                    <img src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?q=80&w=2070&auto=format&fit=crop" alt="Solidworks" class="w-full h-full object-cover opacity-70 group-hover:scale-110 transition-transform duration-1000">
+                    <img src="https://images.unsplash.com/photo-1531403009284-440f080d1e12?q=80&w=2070&auto=format&fit=crop" alt="Solidworks Update" class="w-full h-full object-cover opacity-70 group-hover:scale-110 transition-transform duration-1000">
                     <div class="absolute inset-0 bg-gradient-to-t from-slate-900/80 via-transparent to-transparent"></div>
                     <div class="absolute bottom-6 left-6">
-                        <span class="bg-blue-600 text-white text-[10px] font-bold px-3 py-1.5 rounded-lg shadow-lg uppercase tracking-widest">Efficiency</span>
+                        <span class="bg-emerald-600 text-white text-[10px] font-bold px-3 py-1.5 rounded-lg shadow-lg uppercase tracking-widest">Update</span>
                     </div>
                 </div>
                 <div class="p-8 flex-grow flex flex-col">
-                    <h4 class="text-2xl font-bold mb-4 text-slate-800 leading-snug">SOLIDWORKS 설계 효율을 높이는 <br>최적화 가이드</h4>
-                    <p class="text-slate-500 text-sm mb-8 leading-relaxed">대규모 어셈블리 관리와 설계 프로세스 단축을 위한 노드데이타만의 기술 노하우를 공개합니다.</p>
-                    <a href="https://blog.naver.com/nodedata_/224297184202" target="_blank" class="mt-auto inline-flex items-center text-[#0054A6] font-bold text-base group">
+                    <div class="text-xs text-slate-400 font-semibold mb-3 tracking-wide flex items-center gap-1.5">
+                        <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>
+                        2024. 05. 21
+                    </div>
+                    <h4 class="text-2xl font-bold mb-4 text-slate-800 leading-snug">강력해진 설계 도구, SOLIDWORKS <br>최신 릴리즈 및 혁신 기능 소개</h4>
+                    <p class="text-slate-500 text-sm mb-8 leading-relaxed">더 강력해진 유저 인터페이스와 파트/어셈블리 모델링 생산성 강화를 직접 확인해 보세요.</p>
+                    <a href="https://blog.naver.com/nodedata_/224305532538" target="_blank" class="mt-auto inline-flex items-center text-[#0054A6] font-bold text-base group">
                         내용 더보기
                         <span class="ml-2 w-8 h-[2px] bg-[#0054A6] group-hover:w-12 transition-all"></span>
                     </a>
@@ -149,16 +195,20 @@
             <!-- 블로그 포스트 2 -->
             <article class="group bg-white rounded-3xl overflow-hidden shadow-xl shadow-slate-200/50 border border-slate-100 hover-lift flex flex-col">
                 <div class="h-64 relative overflow-hidden bg-slate-900">
-                    <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=2072&auto=format&fit=crop" alt="Cloud" class="w-full h-full object-cover opacity-70 group-hover:scale-110 transition-transform duration-1000">
+                    <img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?q=80&w=2034&auto=format&fit=crop" alt="Cloud Solution" class="w-full h-full object-cover opacity-70 group-hover:scale-110 transition-transform duration-1000">
                     <div class="absolute inset-0 bg-gradient-to-t from-slate-900/80 via-transparent to-transparent"></div>
                     <div class="absolute bottom-6 left-6">
-                        <span class="bg-cyan-600 text-white text-[10px] font-bold px-3 py-1.5 rounded-lg shadow-lg uppercase tracking-widest">Platform</span>
+                        <span class="bg-sky-600 text-white text-[10px] font-bold px-3 py-1.5 rounded-lg shadow-lg uppercase tracking-widest">Cloud PLM</span>
                     </div>
                 </div>
                 <div class="p-8 flex-grow flex flex-col">
-                    <h4 class="text-2xl font-bold mb-4 text-slate-800 leading-snug">3DEXPERIENCE 플랫폼을 통한 <br>차세대 협업 시스템</h4>
-                    <p class="text-slate-500 text-sm mb-8 leading-relaxed">클라우드 환경에서 실시간으로 연결되는 설계 데이터 관리와 보안 전략을 지금 바로 확인해 보세요.</p>
-                    <a href="https://blog.naver.com/nodedata_/224299045829" target="_blank" class="mt-auto inline-flex items-center text-[#0054A6] font-bold text-base group">
+                    <div class="text-xs text-slate-400 font-semibold mb-3 tracking-wide flex items-center gap-1.5">
+                        <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>
+                        2024. 05. 23
+                    </div>
+                    <h4 class="text-2xl font-bold mb-4 text-slate-800 leading-snug">제조 인프라의 미래: <br>3DEXPERIENCE 스마트 팩토리</h4>
+                    <p class="text-slate-500 text-sm mb-8 leading-relaxed">클라우드 통합 설계 환경 구축을 통해 비효율적인 설계 이력 관리 프로세스를 완전히 제거해 보세요.</p>
+                    <a href="https://blog.naver.com/nodedata_/224305700142" target="_blank" class="mt-auto inline-flex items-center text-[#0054A6] font-bold text-base group">
                         내용 더보기
                         <span class="ml-2 w-8 h-[2px] bg-[#0054A6] group-hover:w-12 transition-all"></span>
                     </a>
@@ -168,16 +218,20 @@
             <!-- 블로그 포스트 3 -->
             <article class="group bg-white rounded-3xl overflow-hidden shadow-xl shadow-slate-200/50 border border-slate-100 hover-lift flex flex-col">
                 <div class="h-64 relative overflow-hidden bg-slate-900">
-                    <img src="https://images.unsplash.com/photo-1581092580497-e0d23cbdf1dc?q=80&w=2070&auto=format&fit=crop" alt="CAD" class="w-full h-full object-cover opacity-70 group-hover:scale-110 transition-transform duration-1000">
+                    <img src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?q=80&w=2070&auto=format&fit=crop" alt="Solidworks" class="w-full h-full object-cover opacity-70 group-hover:scale-110 transition-transform duration-1000">
                     <div class="absolute inset-0 bg-gradient-to-t from-slate-900/80 via-transparent to-transparent"></div>
                     <div class="absolute bottom-6 left-6">
-                        <span class="bg-indigo-600 text-white text-[10px] font-bold px-3 py-1.5 rounded-lg shadow-lg uppercase tracking-widest">2D/3D Hybrid</span>
+                        <span class="bg-blue-600 text-white text-[10px] font-bold px-3 py-1.5 rounded-lg shadow-lg uppercase tracking-widest">Efficiency</span>
                     </div>
                 </div>
                 <div class="p-8 flex-grow flex flex-col">
-                    <h4 class="text-2xl font-bold mb-4 text-slate-800 leading-snug">합리적인 2D 설계를 위한 <br>DraftSight 활용 전략</h4>
-                    <p class="text-slate-500 text-sm mb-8 leading-relaxed">친숙한 DWG 인터페이스는 그대로 유지하면서 비용 효율을 극대화하는 라이선스 운영 가이드입니다.</p>
-                    <a href="https://blog.naver.com/nodedata_/224298044519" target="_blank" class="mt-auto inline-flex items-center text-[#0054A6] font-bold text-base group">
+                    <div class="text-xs text-slate-400 font-semibold mb-3 tracking-wide flex items-center gap-1.5">
+                        <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>
+                        2024. 04. 25
+                    </div>
+                    <h4 class="text-2xl font-bold mb-4 text-slate-800 leading-snug">SOLIDWORKS 설계 효율을 높이는 <br>최적화 가이드</h4>
+                    <p class="text-slate-500 text-sm mb-8 leading-relaxed">대규모 어셈블리 관리와 설계 프로세스 단축을 위한 노드데이타만의 기술 노하우를 공개합니다.</p>
+                    <a href="https://blog.naver.com/nodedata_/224297184202" target="_blank" class="mt-auto inline-flex items-center text-[#0054A6] font-bold text-base group">
                         내용 더보기
                         <span class="ml-2 w-8 h-[2px] bg-[#0054A6] group-hover:w-12 transition-all"></span>
                     </a>
@@ -187,13 +241,64 @@
             <!-- 블로그 포스트 4 -->
             <article class="group bg-white rounded-3xl overflow-hidden shadow-xl shadow-slate-200/50 border border-slate-100 hover-lift flex flex-col">
                 <div class="h-64 relative overflow-hidden bg-slate-900">
-                    <img src="https://images.unsplash.com/photo-1581092335397-9583ec4444c1?q=80&w=2070&auto=format&fit=crop" alt="Analysis" class="w-full h-full object-cover opacity-70 group-hover:scale-110 transition-transform duration-1000">
+                    <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=2072&auto=format&fit=crop" alt="Cloud" class="w-full h-full object-cover opacity-70 group-hover:scale-110 transition-transform duration-1000">
+                    <div class="absolute inset-0 bg-gradient-to-t from-slate-900/80 via-transparent to-transparent"></div>
+                    <div class="absolute bottom-6 left-6">
+                        <span class="bg-cyan-600 text-white text-[10px] font-bold px-3 py-1.5 rounded-lg shadow-lg uppercase tracking-widest">Platform</span>
+                    </div>
+                </div>
+                <div class="p-8 flex-grow flex flex-col">
+                    <div class="text-xs text-slate-400 font-semibold mb-3 tracking-wide flex items-center gap-1.5">
+                        <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>
+                        2024. 04. 26
+                    </div>
+                    <h4 class="text-2xl font-bold mb-4 text-slate-800 leading-snug">3DEXPERIENCE 플랫폼을 통한 <br>차세대 협업 시스템</h4>
+                    <p class="text-slate-500 text-sm mb-8 leading-relaxed">클라우드 환경에서 실시간으로 연결되는 설계 데이터 관리와 보안 전략을 지금 바로 확인해 보세요.</p>
+                    <a href="https://blog.naver.com/nodedata_/224299045829" target="_blank" class="mt-auto inline-flex items-center text-[#0054A6] font-bold text-base group">
+                        내용 더보기
+                        <span class="ml-2 w-8 h-[2px] bg-[#0054A6] group-hover:w-12 transition-all"></span>
+                    </a>
+                </div>
+            </article>
+
+            <!-- 블로그 포스트 5 -->
+            <article class="group bg-white rounded-3xl overflow-hidden shadow-xl shadow-slate-200/50 border border-slate-100 hover-lift flex flex-col">
+                <div class="h-64 relative overflow-hidden bg-slate-900">
+                    <img src="https://images.unsplash.com/photo-1581092580497-e0d23cbdf1dc?q=80&w=2070&auto=format&fit=crop" alt="CAD" class="w-full h-full object-cover opacity-70 group-hover:scale-110 transition-transform duration-1000">
+                    <div class="absolute inset-0 bg-gradient-to-t from-slate-900/80 via-transparent to-transparent"></div>
+                    <div class="absolute bottom-6 left-6">
+                        <span class="bg-indigo-600 text-white text-[10px] font-bold px-3 py-1.5 rounded-lg shadow-lg uppercase tracking-widest">2D/3D Hybrid</span>
+                    </div>
+                </div>
+                <div class="p-8 flex-grow flex flex-col">
+                    <div class="text-xs text-slate-400 font-semibold mb-3 tracking-wide flex items-center gap-1.5">
+                        <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>
+                        2024. 04. 26
+                    </div>
+                    <h4 class="text-2xl font-bold mb-4 text-slate-800 leading-snug">합리적인 2D 설계를 위한 <br>DraftSight 활용 전략</h4>
+                    <p class="text-slate-500 text-sm mb-8 leading-relaxed">친숙한 DWG 인터페이스는 그대로 유지하면서 비용 효율을 극대화하는 라이선스 운영 가이드입니다.</p>
+                    <a href="https://blog.naver.com/nodedata_/224298044519" target="_blank" class="mt-auto inline-flex items-center text-[#0054A6] font-bold text-base group">
+                        내용 더보기
+                        <span class="ml-2 w-8 h-[2px] bg-[#0054A6] group-hover:w-12 transition-all"></span>
+                    </a>
+                </div>
+            </article>
+
+            <!-- 블로그 포스트 6 -->
+            <article class="group bg-white rounded-3xl overflow-hidden shadow-xl shadow-slate-200/50 border border-slate-100 hover-lift flex flex-col">
+                <div class="h-64 relative overflow-hidden bg-slate-900">
+                    <!-- 시뮬레이션 정상 이미지 -->
+                    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=2070&auto=format&fit=crop" alt="Analysis" class="w-full h-full object-cover opacity-70 group-hover:scale-110 transition-transform duration-1000">
                     <div class="absolute inset-0 bg-gradient-to-t from-slate-900/80 via-transparent to-transparent"></div>
                     <div class="absolute bottom-6 left-6">
                         <span class="bg-red-700 text-white text-[10px] font-bold px-3 py-1.5 rounded-lg shadow-lg uppercase tracking-widest">Analysis</span>
                     </div>
                 </div>
                 <div class="p-8 flex-grow flex flex-col">
+                    <div class="text-xs text-slate-400 font-semibold mb-3 tracking-wide flex items-center gap-1.5">
+                        <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>
+                        2024. 04. 18
+                    </div>
                     <h4 class="text-2xl font-bold mb-4 text-slate-800 leading-snug">시뮬레이션 기반 설계: <br>시제품 제작 비용의 획기적 절감</h4>
                     <p class="text-slate-500 text-sm mb-8 leading-relaxed">구조 및 유동 해석을 통해 가상 공간에서 성능을 검증하고 개발 기간을 단축하는 솔루션입니다.</p>
                     <a href="https://blog.naver.com/nodedata_/224292216818" target="_blank" class="mt-auto inline-flex items-center text-[#0054A6] font-bold text-base group">
@@ -214,11 +319,19 @@
             </svg>
         </div>
         <div class="max-w-4xl mx-auto text-center relative z-10">
-            <h3 class="text-white text-3xl md:text-4xl font-black mb-6">설계 자동화, 고민하지 말고 지금 문의하세요!</h3>
+            <!-- 문의 유도 문구 줄바꿈 및 '해석 시뮬레이션' 추가 -->
+            <h3 class="text-white text-3xl md:text-4xl font-black mb-6 leading-tight">설계 자동화부터 해석 시뮬레이션까지 <br> 고민하지 말고 지금 문의하세요!</h3>
             <p class="text-blue-100 text-lg mb-10 opacity-90">부산/영남 노드데이타 전문가가 직접 방문하여 맞춤형 컨설팅을 제공해 드립니다.</p>
-            <a href="https://docs.google.com/forms/d/e/1FAIpQLScqlrZ8guOh3sWa4Cz4pL4M89IEk6lXHZR7eC-AWHOX-Cvekg/viewform?usp=header" target="_blank" class="inline-block bg-white text-[#0054A6] px-12 py-5 rounded-2xl font-black text-xl shadow-2xl hover:scale-105 transition-transform active:scale-95">
-                지금 바로 상담 신청하기
-            </a>
+            <div class="flex flex-col sm:flex-row justify-center gap-4 max-w-lg mx-auto sm:max-w-none">
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLScqlrZ8guOh3sWa4Cz4pL4M89IEk6lXHZR7eC-AWHOX-Cvekg/viewform?usp=header" target="_blank" class="inline-block bg-white text-[#0054A6] px-10 py-4 rounded-2xl font-black text-lg shadow-2xl hover:scale-105 transition-all active:scale-95">
+                    지금 바로 상담 신청하기
+                </a>
+                <!-- [수정] 소개서 다운로드 버튼 추가 (하단 배너 영역) -->
+                <a href="노드데이타-용역 엔지니어링 솔루션_260609.pdf" download="노드데이타-용역 엔지니어링 솔루션_260609.pdf" class="inline-flex items-center justify-center border-2 border-white text-white px-10 py-4 rounded-2xl font-black text-lg hover:bg-white/10 transition-all gap-2 shadow-2xl">
+                    <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path></svg>
+                    소개서 다운로드 (PDF)
+                </a>
+            </div>
         </div>
     </section>
 
@@ -226,8 +339,8 @@
         <div class="max-w-6xl mx-auto">
             <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 items-start mb-16">
                 <div>
-                    <!-- ff.png 로고 적용 (하단) -->
-                    <img src="ff.png" alt="NodeData Footer" class="h-10 mb-6 grayscale opacity-60 hover:grayscale-0 transition-all cursor-pointer" onerror="this.src='https://placehold.co/200x60/0054A6/FFFFFF?text=NODEDATA'">
+                    <!-- 하단 로고 h-10 에서 h-14 로 크기 확대 -->
+                    <img src="ff.png" alt="NodeData Footer" class="h-14 mb-6 grayscale opacity-60 hover:grayscale-0 transition-all cursor-pointer" onerror="this.src='https://placehold.co/200x60/0054A6/FFFFFF?text=NODEDATA'">
                     <p class="text-xs text-slate-400 font-medium leading-relaxed">
                         부산/영남 노드데이타는 영남 지역 최고의 솔리드웍스 공인 파트너로서 기계, 제조 산업의 혁신 설계 환경 구축을 전문으로 합니다.
                     </p>
@@ -247,10 +360,10 @@
 
                         <div class="text-center md:text-right space-y-2 relative z-10">
                             <div class="inline-block bg-white px-5 py-2.5 rounded-2xl shadow-sm border border-slate-100">
-                                <p class="text-sm font-bold text-slate-800">영남본부 <span class="text-[#0054A6]">정임철 차장</span></p>
+                                <p class="text-sm font-bold text-slate-800">영남본부 <span class="text-[#0054A6]">담당자 문의</span></p>
                                 <p class="text-[11px] text-slate-500 font-medium select-all">Jeongic@nodedata.com</p>
                             </div>
-                            <p class="text-2xl font-black text-slate-900 tracking-tighter">010-4877-8224</p>
+                            <p class="text-2xl font-black text-slate-900 tracking-tighter">051-517-4450</p>
                         </div>
                     </div>
                 </div>
@@ -262,7 +375,15 @@
                     <a href="http://www.nodedata.com" target="_blank" class="text-[11px] font-bold text-slate-500 hover:text-[#0054A6] transition-colors">HOMEPAGE</a>
                     <a href="https://docs.google.com/forms/d/e/1FAIpQLScqlrZ8guOh3sWa4Cz4pL4M89IEk6lXHZR7eC-AWHOX-Cvekg/viewform?usp=header" target="_blank" class="text-[11px] font-extrabold text-[#0054A6] animate-pulse">COUNSELING PAGE</a>
                 </div>
-                <p class="text-[9px] text-slate-400 font-bold tracking-widest uppercase">© 2024 BUSAN/YEONGNAM NODEDATA CO., LTD. ALL RIGHTS RESERVED.</p>
+                <p class="text-[9px] text-slate-400 font-bold tracking-widest uppercase">© 2026 BUSAN/YEONGNAM NODEDATA CO., LTD. ALL RIGHTS RESERVED.</p>
+            </div>
+            
+            <!-- [신규 추가] 수신거부 안내 -->
+            <div class="mt-8 pt-6 border-t border-slate-100 text-center">
+                <p class="text-[11px] text-slate-400 leading-relaxed">
+                    본 메일은 수신 동의 여부를 확인하여 발송되었습니다. 더 이상 뉴스레터 수신을 원하지 않으실 경우, <br class="hidden sm:block">
+                    <a href="mailto:Jeongic@nodedata.com?subject=[수신거부]%20노드데이타%20뉴스레터%20수신거부%20요청&body=뉴스레터%20수신거부를%20요청합니다." class="text-slate-600 font-bold underline hover:text-red-500 transition-colors">여기(수신거부)</a>를 클릭하여 메일을 보내주시기 바랍니다.
+                </p>
             </div>
         </div>
     </footer>
